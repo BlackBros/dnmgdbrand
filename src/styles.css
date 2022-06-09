@@ -1,0 +1,5 @@
+@import url('http://fonts.cdnfonts.com/css/vcr-osd-mono');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
