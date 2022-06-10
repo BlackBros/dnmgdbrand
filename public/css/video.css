@@ -4,6 +4,6 @@ video#bgVideo {
     background-size: cover;
     object-fit: cover;
     opacity: 0.9;
-    height: auto;
+    height: 100%;
     z-index: -1; // Put the video behind all other elements
    } 
