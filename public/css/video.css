@@ -7,3 +7,25 @@ video#bgVideo {
     height: 100%;
     z-index: -1; // Put the video behind all other elements
    } 
+
+   @keyframes strike{
+    0%   { width : 0; }
+    100% { width: 100%; }
+  }
+  .strike {
+    position: relative;
+  }
+  .strike::after {
+    content: ' ';
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background: white;
+    animation-name: strike;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count:1;
+    animation-fill-mode: forwards, backwards; 
+  }
