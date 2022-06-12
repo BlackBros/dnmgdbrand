@@ -12,10 +12,11 @@
     <link rel="stylesheet" href="css/photoswipe.css">
 </head>
 <body class="font-vcr min-h-screen">
+    
     <header class="">
         <video id="bgVideo" autoplay loop muted defaultmuted playsinline>
             <!-- Video is embedded in the WEBM format -->
-            <source src="vid/video.mp4" type="video/mp4" />
+            <source src="vid/bg-vid.mp4" type="video/mp4" />
           </video>
     </header>
 
@@ -24,7 +25,7 @@
     <nav class=" py-2 sticky top-0 z-30">
         <div class=" max-w-6xl mx-auto relative">
             <div class="flex justify-center ">
-                <div class=" bg-white bg-opacity-10 backdrop-blur-lg drop-shadow-lg px-5 py-2 md:px-10 md:py-5 shadow-xl rounded-xl ">
+                <div class=" bg-white bg-opacity-10 backdrop-blur-lg drop-shadow-lg px-5 py-2 md:px-10 md:py-5 shadow-xl ">
                     <a class="strike text-2xl text-white md:text-4xl tracking-widest strike" href="index.html">DNMGD </a>
                 </div>
 
@@ -51,7 +52,7 @@
     
 <!--PHOTO GRIDS -->
 <div class="flex ">
-    <div class="grid grid-cols-3 gap-3  px-4 py-4 pswp-gallery" id="gallery">
+    <div class="grid grids-cols-1 gap-2 lg:grid-cols-3 lg:gap-3  px-4 py-4 pswp-gallery" id="gallery">
         <div class="pswp-gallery__item">
             <a  
               href="./imgs/001.webp" 

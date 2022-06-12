@@ -24,8 +24,8 @@ video#bgVideo {
     height: 4px;
     background: white;
     animation-name: strike;
-    animation-duration: 5s;
+    animation-duration: 10s;
     animation-timing-function: linear;
     animation-iteration-count:1;
-    animation-fill-mode: forwards, backwards; 
+    animation-fill-mode: backwards; 
   }
